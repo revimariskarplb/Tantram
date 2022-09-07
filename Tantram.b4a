@@ -1,0 +1,113 @@
+﻿Build1=Default,b4a.example
+File1=Alat01.bal
+File10=Scrollview.bal
+File11=tim1.png
+File12=tim10.png
+File13=tim11.png
+File14=tim2.png
+File15=tim3.png
+File16=tim4.png
+File17=tim5.png
+File18=tim6.png
+File19=tim7.png
+File2=Alat02.bal
+File20=tim8.png
+File21=tim9.png
+File3=Alat03.bal
+File4=Alat04.bal
+File5=Gambar.bal
+File6=HomePage.bal
+File7=LoginAlat.bal
+File8=logo.png
+File9=logo_tantram.png
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup11=New Group
+FileGroup12=New Group
+FileGroup13=New Group
+FileGroup14=New Group
+FileGroup15=New Group
+FileGroup16=New Group
+FileGroup17=New Group
+FileGroup18=New Group
+FileGroup19=New Group
+FileGroup2=Default Group
+FileGroup20=New Group
+FileGroup21=New Group
+FileGroup3=Default Group
+FileGroup4=Default Group
+FileGroup5=Default Group
+FileGroup6=Default Group
+FileGroup7=Default Group
+FileGroup8=New Group
+FileGroup9=Default Group
+Group=Default Group
+Library1=core
+Library2=xui
+Library3=mysql
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="30"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~
+Module1=ModulAlat01
+Module2=ModulGambar
+Module3=ModulHomePage
+Module4=ModulKoneksi
+Module5=ModulLoginAdmin
+Module6=ModulLoginAlat
+Module7=Starter
+NumberOfFiles=21
+NumberOfLibraries=3
+NumberOfModules=7
+Version=11.8
+@EndOfDesignText@
+
+#Region  Project Attributes 
+	#ApplicationLabel: Tantram
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: unspecified
+	#CanInstallToExternalStorage: False
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: False
+#End Region
+
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+	Private xui As XUI
+End Sub
+
+Sub Globals
+	'These global variables will be redeclared each time the activity is created.
+	Private btnAlat As Button
+	Private btnAdmin As Button
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	Activity.LoadLayout("HomePage")
+	
+End Sub
+
+Sub Activity_Resume
+
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+Private Sub btnAlat_Click
+	Activity.Finish
+	StartActivity(ModulLoginAlat)
+End Sub
+
+Private Sub btnAdmin_Click
+	Activity.Finish
+End Sub
+
+Private Sub btnGambar_Click
+	Activity.Finish
+	StartActivity(ModulGambar)
+End Sub
