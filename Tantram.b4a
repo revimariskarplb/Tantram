@@ -10,52 +10,53 @@ File16=tim4.png
 File17=tim5.png
 File18=tim6.png
 File19=tim7.png
-File2=Alat02.bal
+File2=DasboardAdmin.bal
 File20=tim8.png
 File21=tim9.png
-File3=Alat03.bal
-File4=Alat04.bal
+File3=DataAlat.bal
+File4=EditAlat.bal
 File5=Gambar.bal
 File6=HomePage.bal
-File7=LoginAlat.bal
-File8=logo.png
-File9=logo_tantram.png
-FileGroup1=Default Group
-FileGroup10=Default Group
-FileGroup11=New Group
-FileGroup12=New Group
-FileGroup13=New Group
-FileGroup14=New Group
-FileGroup15=New Group
-FileGroup16=New Group
-FileGroup17=New Group
-FileGroup18=New Group
-FileGroup19=New Group
-FileGroup2=Default Group
-FileGroup20=New Group
-FileGroup21=New Group
-FileGroup3=Default Group
-FileGroup4=Default Group
-FileGroup5=Default Group
-FileGroup6=Default Group
-FileGroup7=Default Group
-FileGroup8=New Group
-FileGroup9=Default Group
+File7=LoginAdmin.bal
+File8=LoginAlat.bal
+File9=logo.png
+FileGroup1=Layout Group\Alat
+FileGroup10=Layout Group\Alat
+FileGroup11=Images Group\Slidder
+FileGroup12=Images Group\Slidder
+FileGroup13=Images Group\Slidder
+FileGroup14=Images Group\Slidder
+FileGroup15=Images Group\Slidder
+FileGroup16=Images Group\Slidder
+FileGroup17=Images Group\Slidder
+FileGroup18=Images Group\Slidder
+FileGroup19=Images Group\Slidder
+FileGroup2=Layout Group\Admin
+FileGroup20=Images Group\Slidder
+FileGroup21=Images Group\Slidder
+FileGroup3=Layout Group\Admin
+FileGroup4=Layout Group\Admin
+FileGroup5=Layout Group\Alat
+FileGroup6=Layout Group
+FileGroup7=Layout Group\Admin
+FileGroup8=Layout Group\Alat
+FileGroup9=Images Group
 Group=Default Group
 Library1=core
 Library2=xui
 Library3=mysql
 ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="30"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~
 Module1=ModulAlat01
-Module2=ModulGambar
-Module3=ModulHomePage
-Module4=ModulKoneksi
-Module5=ModulLoginAdmin
-Module6=ModulLoginAlat
-Module7=Starter
+Module2=ModulDashboard
+Module3=ModulGambar
+Module4=ModulHomePage
+Module5=ModulKoneksi
+Module6=ModulLoginAdmin
+Module7=ModulLoginAlat
+Module8=Starter
 NumberOfFiles=21
 NumberOfLibraries=3
-NumberOfModules=7
+NumberOfModules=8
 Version=11.8
 @EndOfDesignText@
 
@@ -87,7 +88,6 @@ End Sub
 
 Sub Activity_Create(FirstTime As Boolean)
 	Activity.LoadLayout("HomePage")
-	
 End Sub
 
 Sub Activity_Resume
@@ -105,6 +105,7 @@ End Sub
 
 Private Sub btnAdmin_Click
 	Activity.Finish
+	StartActivity(ModulLoginAdmin)
 End Sub
 
 Private Sub btnGambar_Click
