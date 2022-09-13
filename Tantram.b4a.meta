@@ -34,6 +34,6 @@ ModuleClosedNodes6=
 ModuleClosedNodes7=
 ModuleClosedNodes8=
 ModuleClosedNodes9=
-NavigationStack=Visual Designer,DasboardAdmin.bal,-100,1,Visual Designer,Alat01.bal,-100,2,Visual Designer,LaporanDataSensor.bal,-100,1,Visual Designer,LaporanBulanan.bal,-100,4,Main,Activity_Resume,36,0,Main,Activity_Create,29,0,ModulLoginAlat,btnMasuk_Click,91,4,ModulLoginAlat,enkripsi,97,0,Visual Designer,HomePage.bal,-100,6,Main,Process_Globals,19,0
+NavigationStack=Visual Designer,DasboardAdmin.bal,-100,1,Visual Designer,Alat01.bal,-100,2,Visual Designer,LaporanDataSensor.bal,-100,1,Visual Designer,LaporanBulanan.bal,-100,4,Main,Activity_Resume,36,0,Main,Activity_Create,29,0,ModulLoginAlat,btnMasuk_Click,91,4,ModulLoginAlat,enkripsi,97,0,Visual Designer,HomePage.bal,-100,6,Main,Process_Globals,18,0
 SelectedBuild=0
 VisibleModules=5,9,3,6,2,10,8,1
