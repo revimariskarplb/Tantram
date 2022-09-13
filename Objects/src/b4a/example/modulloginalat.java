@@ -368,129 +368,129 @@ public static String  _activity_create(boolean _firsttime) throws Exception{
 RDebugUtils.currentModule="modulloginalat";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_create", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_create", new Object[] {_firsttime}));}
-RDebugUtils.currentLine=2818048;
- //BA.debugLineNum = 2818048;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
-RDebugUtils.currentLine=2818051;
- //BA.debugLineNum = 2818051;BA.debugLine="Activity.LoadLayout(\"LoginAlat\")";
+RDebugUtils.currentLine=2228224;
+ //BA.debugLineNum = 2228224;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
+RDebugUtils.currentLine=2228227;
+ //BA.debugLineNum = 2228227;BA.debugLine="Activity.LoadLayout(\"LoginAlat\")";
 mostCurrent._activity.LoadLayout("LoginAlat",mostCurrent.activityBA);
-RDebugUtils.currentLine=2818055;
- //BA.debugLineNum = 2818055;BA.debugLine="End Sub";
+RDebugUtils.currentLine=2228231;
+ //BA.debugLineNum = 2228231;BA.debugLine="End Sub";
 return "";
 }
 public static String  _activity_pause(boolean _userclosed) throws Exception{
 RDebugUtils.currentModule="modulloginalat";
-RDebugUtils.currentLine=2949120;
- //BA.debugLineNum = 2949120;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
-RDebugUtils.currentLine=2949122;
- //BA.debugLineNum = 2949122;BA.debugLine="End Sub";
+RDebugUtils.currentLine=2359296;
+ //BA.debugLineNum = 2359296;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
+RDebugUtils.currentLine=2359298;
+ //BA.debugLineNum = 2359298;BA.debugLine="End Sub";
 return "";
 }
 public static String  _activity_resume() throws Exception{
 RDebugUtils.currentModule="modulloginalat";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_resume", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_resume", null));}
-RDebugUtils.currentLine=2883584;
- //BA.debugLineNum = 2883584;BA.debugLine="Sub Activity_Resume";
-RDebugUtils.currentLine=2883586;
- //BA.debugLineNum = 2883586;BA.debugLine="End Sub";
+RDebugUtils.currentLine=2293760;
+ //BA.debugLineNum = 2293760;BA.debugLine="Sub Activity_Resume";
+RDebugUtils.currentLine=2293762;
+ //BA.debugLineNum = 2293762;BA.debugLine="End Sub";
 return "";
 }
 public static String  _btnmasuk_click() throws Exception{
 RDebugUtils.currentModule="modulloginalat";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "btnmasuk_click", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "btnmasuk_click", null));}
-RDebugUtils.currentLine=3014656;
- //BA.debugLineNum = 3014656;BA.debugLine="Private Sub btnMasuk_Click";
-RDebugUtils.currentLine=3014659;
- //BA.debugLineNum = 3014659;BA.debugLine="If edtKodeAlat.Text = \"\" Then";
+RDebugUtils.currentLine=2424832;
+ //BA.debugLineNum = 2424832;BA.debugLine="Private Sub btnMasuk_Click";
+RDebugUtils.currentLine=2424835;
+ //BA.debugLineNum = 2424835;BA.debugLine="If edtKodeAlat.Text = \"\" Then";
 if ((mostCurrent._edtkodealat.getText()).equals("")) { 
-RDebugUtils.currentLine=3014660;
- //BA.debugLineNum = 3014660;BA.debugLine="MsgboxAsync(\"Masukan Kode Alat\",\"Info\")";
+RDebugUtils.currentLine=2424836;
+ //BA.debugLineNum = 2424836;BA.debugLine="MsgboxAsync(\"Masukan Kode Alat\",\"Info\")";
 anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("Masukan Kode Alat"),BA.ObjectToCharSequence("Info"),processBA);
-RDebugUtils.currentLine=3014661;
- //BA.debugLineNum = 3014661;BA.debugLine="Return";
+RDebugUtils.currentLine=2424837;
+ //BA.debugLineNum = 2424837;BA.debugLine="Return";
 if (true) return "";
  };
-RDebugUtils.currentLine=3014664;
- //BA.debugLineNum = 3014664;BA.debugLine="If edtPassword.Text = \"\" Then";
+RDebugUtils.currentLine=2424840;
+ //BA.debugLineNum = 2424840;BA.debugLine="If edtPassword.Text = \"\" Then";
 if ((mostCurrent._edtpassword.getText()).equals("")) { 
-RDebugUtils.currentLine=3014665;
- //BA.debugLineNum = 3014665;BA.debugLine="MsgboxAsync(\"Masukan Password\",\"Info\")";
+RDebugUtils.currentLine=2424841;
+ //BA.debugLineNum = 2424841;BA.debugLine="MsgboxAsync(\"Masukan Password\",\"Info\")";
 anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("Masukan Password"),BA.ObjectToCharSequence("Info"),processBA);
-RDebugUtils.currentLine=3014666;
- //BA.debugLineNum = 3014666;BA.debugLine="Return";
+RDebugUtils.currentLine=2424842;
+ //BA.debugLineNum = 2424842;BA.debugLine="Return";
 if (true) return "";
  };
-RDebugUtils.currentLine=3014670;
- //BA.debugLineNum = 3014670;BA.debugLine="ModulKoneksi.koneksi";
+RDebugUtils.currentLine=2424846;
+ //BA.debugLineNum = 2424846;BA.debugLine="ModulKoneksi.koneksi";
 mostCurrent._modulkoneksi._koneksi /*String*/ (mostCurrent.activityBA);
-RDebugUtils.currentLine=3014673;
- //BA.debugLineNum = 3014673;BA.debugLine="p=edtPassword.Text";
+RDebugUtils.currentLine=2424849;
+ //BA.debugLineNum = 2424849;BA.debugLine="p=edtPassword.Text";
 mostCurrent._p = mostCurrent._edtpassword.getText();
-RDebugUtils.currentLine=3014676;
- //BA.debugLineNum = 3014676;BA.debugLine="enkripsi";
+RDebugUtils.currentLine=2424852;
+ //BA.debugLineNum = 2424852;BA.debugLine="enkripsi";
 _enkripsi();
-RDebugUtils.currentLine=3014679;
- //BA.debugLineNum = 3014679;BA.debugLine="ModulKoneksi.ResultS = ModulKoneksi.MHandler.Quer";
+RDebugUtils.currentLine=2424855;
+ //BA.debugLineNum = 2424855;BA.debugLine="ModulKoneksi.ResultS = ModulKoneksi.MHandler.Quer";
 mostCurrent._modulkoneksi._results /*mysql.mysqlhandler.ResultSetWrapper*/  = (mysql.mysqlhandler.ResultSetWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new mysql.mysqlhandler.ResultSetWrapper(), (java.sql.ResultSet)(mostCurrent._modulkoneksi._mhandler /*mysql.mysqlhandler*/ .Query("SELECT * FROM tb_alat WHERE kode_alat = '"+mostCurrent._edtkodealat.getText()+"'")));
-RDebugUtils.currentLine=3014680;
- //BA.debugLineNum = 3014680;BA.debugLine="If ModulKoneksi.ResultS.RowCount > 0 Then";
+RDebugUtils.currentLine=2424856;
+ //BA.debugLineNum = 2424856;BA.debugLine="If ModulKoneksi.ResultS.RowCount > 0 Then";
 if (mostCurrent._modulkoneksi._results /*mysql.mysqlhandler.ResultSetWrapper*/ .RowCount()>0) { 
-RDebugUtils.currentLine=3014682;
- //BA.debugLineNum = 3014682;BA.debugLine="ModulKoneksi.ResultS = ModulKoneksi.MHandler.Que";
+RDebugUtils.currentLine=2424858;
+ //BA.debugLineNum = 2424858;BA.debugLine="ModulKoneksi.ResultS = ModulKoneksi.MHandler.Que";
 mostCurrent._modulkoneksi._results /*mysql.mysqlhandler.ResultSetWrapper*/  = (mysql.mysqlhandler.ResultSetWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new mysql.mysqlhandler.ResultSetWrapper(), (java.sql.ResultSet)(mostCurrent._modulkoneksi._mhandler /*mysql.mysqlhandler*/ .Query("SELECT * FROM tb_alat WHERE kode_alat ='"+mostCurrent._edtkodealat.getText()+"' and password='"+mostCurrent._epass+"'")));
-RDebugUtils.currentLine=3014683;
- //BA.debugLineNum = 3014683;BA.debugLine="If ModulKoneksi.ResultS.RowCount > 0 Then";
+RDebugUtils.currentLine=2424859;
+ //BA.debugLineNum = 2424859;BA.debugLine="If ModulKoneksi.ResultS.RowCount > 0 Then";
 if (mostCurrent._modulkoneksi._results /*mysql.mysqlhandler.ResultSetWrapper*/ .RowCount()>0) { 
-RDebugUtils.currentLine=3014687;
- //BA.debugLineNum = 3014687;BA.debugLine="ModulKoneksi.MHandler.Close";
+RDebugUtils.currentLine=2424863;
+ //BA.debugLineNum = 2424863;BA.debugLine="ModulKoneksi.MHandler.Close";
 mostCurrent._modulkoneksi._mhandler /*mysql.mysqlhandler*/ .Close();
-RDebugUtils.currentLine=3014690;
- //BA.debugLineNum = 3014690;BA.debugLine="Activity.Finish";
+RDebugUtils.currentLine=2424866;
+ //BA.debugLineNum = 2424866;BA.debugLine="Activity.Finish";
 mostCurrent._activity.Finish();
-RDebugUtils.currentLine=3014691;
- //BA.debugLineNum = 3014691;BA.debugLine="StartActivity(ModulAlat01)";
+RDebugUtils.currentLine=2424867;
+ //BA.debugLineNum = 2424867;BA.debugLine="StartActivity(ModulAlat01)";
 anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._modulalat01.getObject()));
  }else {
-RDebugUtils.currentLine=3014694;
- //BA.debugLineNum = 3014694;BA.debugLine="MsgboxAsync(\"Password tidak ditemukan\",\"info\")";
+RDebugUtils.currentLine=2424870;
+ //BA.debugLineNum = 2424870;BA.debugLine="MsgboxAsync(\"Password tidak ditemukan\",\"info\")";
 anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("Password tidak ditemukan"),BA.ObjectToCharSequence("info"),processBA);
-RDebugUtils.currentLine=3014695;
- //BA.debugLineNum = 3014695;BA.debugLine="edtPassword.Text =\"\"";
+RDebugUtils.currentLine=2424871;
+ //BA.debugLineNum = 2424871;BA.debugLine="edtPassword.Text =\"\"";
 mostCurrent._edtpassword.setText(BA.ObjectToCharSequence(""));
-RDebugUtils.currentLine=3014696;
- //BA.debugLineNum = 3014696;BA.debugLine="Return";
+RDebugUtils.currentLine=2424872;
+ //BA.debugLineNum = 2424872;BA.debugLine="Return";
 if (true) return "";
  };
  }else {
-RDebugUtils.currentLine=3014700;
- //BA.debugLineNum = 3014700;BA.debugLine="MsgboxAsync(\"Kode Alat tidak ditemukan\",\"info\")";
+RDebugUtils.currentLine=2424876;
+ //BA.debugLineNum = 2424876;BA.debugLine="MsgboxAsync(\"Kode Alat tidak ditemukan\",\"info\")";
 anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("Kode Alat tidak ditemukan"),BA.ObjectToCharSequence("info"),processBA);
-RDebugUtils.currentLine=3014701;
- //BA.debugLineNum = 3014701;BA.debugLine="edtKodeAlat.Text =\"\"";
+RDebugUtils.currentLine=2424877;
+ //BA.debugLineNum = 2424877;BA.debugLine="edtKodeAlat.Text =\"\"";
 mostCurrent._edtkodealat.setText(BA.ObjectToCharSequence(""));
-RDebugUtils.currentLine=3014702;
- //BA.debugLineNum = 3014702;BA.debugLine="Return";
+RDebugUtils.currentLine=2424878;
+ //BA.debugLineNum = 2424878;BA.debugLine="Return";
 if (true) return "";
  };
-RDebugUtils.currentLine=3014705;
- //BA.debugLineNum = 3014705;BA.debugLine="End Sub";
+RDebugUtils.currentLine=2424881;
+ //BA.debugLineNum = 2424881;BA.debugLine="End Sub";
 return "";
 }
 public static String  _enkripsi() throws Exception{
 RDebugUtils.currentModule="modulloginalat";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "enkripsi", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "enkripsi", null));}
-RDebugUtils.currentLine=3080192;
- //BA.debugLineNum = 3080192;BA.debugLine="Sub enkripsi";
-RDebugUtils.currentLine=3080193;
- //BA.debugLineNum = 3080193;BA.debugLine="passwordhash = md.GetMessageDigest(p.GetBytes(\"UT";
+RDebugUtils.currentLine=2490368;
+ //BA.debugLineNum = 2490368;BA.debugLine="Sub enkripsi";
+RDebugUtils.currentLine=2490369;
+ //BA.debugLineNum = 2490369;BA.debugLine="passwordhash = md.GetMessageDigest(p.GetBytes(\"UT";
 _passwordhash = mostCurrent._md.GetMessageDigest(mostCurrent._p.getBytes("UTF8"),"MD5");
-RDebugUtils.currentLine=3080194;
- //BA.debugLineNum = 3080194;BA.debugLine="epass = ByteCon.HexFromBytes(passwordhash)";
+RDebugUtils.currentLine=2490370;
+ //BA.debugLineNum = 2490370;BA.debugLine="epass = ByteCon.HexFromBytes(passwordhash)";
 mostCurrent._epass = mostCurrent._bytecon.HexFromBytes(_passwordhash);
-RDebugUtils.currentLine=3080195;
- //BA.debugLineNum = 3080195;BA.debugLine="End Sub";
+RDebugUtils.currentLine=2490371;
+ //BA.debugLineNum = 2490371;BA.debugLine="End Sub";
 return "";
 }
 }

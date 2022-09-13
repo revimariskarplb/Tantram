@@ -55,7 +55,6 @@ public boolean isSingleton() {
 		return pcBA;
 	}
 public static RemoteObject __c = RemoteObject.declareNull("anywheresoftware.b4a.keywords.Common");
-public static RemoteObject _scrollview1 = RemoteObject.declareNull("anywheresoftware.b4a.objects.ScrollViewWrapper");
 public static b4a.example.main _main = null;
 public static b4a.example.modulhomepage _modulhomepage = null;
 public static b4a.example.modulloginadmin _modulloginadmin = null;
@@ -68,6 +67,6 @@ public static b4a.example.modulgambar _modulgambar = null;
 public static b4a.example.modullaporanbulanan _modullaporanbulanan = null;
 public static b4a.example.starter _starter = null;
   public Object[] GetGlobals() {
-		return new Object[] {"Activity",modulalat01.mostCurrent._activity,"LaporanDataSensor",Debug.moduleToString(b4a.example.laporandatasensor.class),"Main",Debug.moduleToString(b4a.example.main.class),"ModulDashboard",Debug.moduleToString(b4a.example.moduldashboard.class),"ModulGambar",Debug.moduleToString(b4a.example.modulgambar.class),"ModulHomePage",Debug.moduleToString(b4a.example.modulhomepage.class),"ModulKoneksi",Debug.moduleToString(b4a.example.modulkoneksi.class),"ModulLaporanBulanan",Debug.moduleToString(b4a.example.modullaporanbulanan.class),"ModulLaporanBulananAlat",Debug.moduleToString(b4a.example.modullaporanbulananalat.class),"ModulLoginAdmin",Debug.moduleToString(b4a.example.modulloginadmin.class),"ModulLoginAlat",Debug.moduleToString(b4a.example.modulloginalat.class),"ScrollView1",modulalat01.mostCurrent._scrollview1,"Starter",Debug.moduleToString(b4a.example.starter.class)};
+		return new Object[] {"Activity",modulalat01.mostCurrent._activity,"LaporanDataSensor",Debug.moduleToString(b4a.example.laporandatasensor.class),"Main",Debug.moduleToString(b4a.example.main.class),"ModulDashboard",Debug.moduleToString(b4a.example.moduldashboard.class),"ModulGambar",Debug.moduleToString(b4a.example.modulgambar.class),"ModulHomePage",Debug.moduleToString(b4a.example.modulhomepage.class),"ModulKoneksi",Debug.moduleToString(b4a.example.modulkoneksi.class),"ModulLaporanBulanan",Debug.moduleToString(b4a.example.modullaporanbulanan.class),"ModulLaporanBulananAlat",Debug.moduleToString(b4a.example.modullaporanbulananalat.class),"ModulLoginAdmin",Debug.moduleToString(b4a.example.modulloginadmin.class),"ModulLoginAlat",Debug.moduleToString(b4a.example.modulloginalat.class),"Starter",Debug.moduleToString(b4a.example.starter.class)};
 }
 }

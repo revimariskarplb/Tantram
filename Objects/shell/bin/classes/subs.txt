@@ -110,9 +110,9 @@ moduldashboard,process_globals,0,1,6,10
 
 
 
-modulalat01,activity_create,1,0,19,28
-,scrollview1
-,scrollview1
+modulalat01,activity_create,1,1,19,28
+
+
 
 modulalat01,activity_pause,0,0,34,36
 
@@ -142,7 +142,7 @@ modulloginalat,activity_resume,0,0,35,37
 
 
 
-modulloginalat,btnmasuk_click,1,1,44,93
+modulloginalat,btnmasuk_click,1,0,44,93
 ,edtkodealat,,edtpassword,,p,modulkoneksi,results,modulkoneksi,mhandler,,epass,,passwordhash,,md,,bytecon
 ,p,modulkoneksi,results,,passwordhash,,epass
 modulkoneksi,koneksi,,enkripsi

@@ -24,7 +24,7 @@ End Sub
 
 Sub Activity_Create(FirstTime As Boolean)
 	'Do not forget to load the layout file created with the visual designer. For example:
-	Activity.LoadLayout("Alat01")
+	Activity.LoadLayout("DashboardAlat")
 	'Activity.LoadLayout("Scrollview")
 	
 	'ScrollView1.Panel.LoadLayout("Alat01")

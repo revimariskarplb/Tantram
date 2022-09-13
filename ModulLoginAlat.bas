@@ -82,7 +82,7 @@ Private Sub btnMasuk_Click
 			
 			'membuka halaman Alat01
 			Activity.Finish
-			StartActivity(ModulAlat01)
+			StartActivity(ModulDashboardAlat)
 		Else
 			'jik tidak ditemukan, muncul pesan 
 			MsgboxAsync("Password tidak ditemukan","info")
@@ -94,8 +94,7 @@ Private Sub btnMasuk_Click
 		MsgboxAsync("Kode Alat tidak ditemukan","info")
 		edtKodeAlat.Text =""
 		Return
-	End If
-	
+	End If	
 End Sub
 
 Sub enkripsi
