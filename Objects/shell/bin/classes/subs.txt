@@ -142,11 +142,11 @@ modulloginalat,activity_resume,0,0,35,37
 
 
 
-modulloginalat,btnmasuk_click,1,1,44,96
+modulloginalat,btnmasuk_click,1,1,44,93
 ,edtkodealat,,edtpassword,,p,modulkoneksi,results,modulkoneksi,mhandler,,epass,,passwordhash,,md,,bytecon
 ,p,modulkoneksi,results,,passwordhash,,epass
 modulkoneksi,koneksi,,enkripsi
-modulloginalat,enkripsi,0,0,98,101
+modulloginalat,enkripsi,0,0,95,98
 ,passwordhash,,md,,p,,epass,,bytecon
 ,passwordhash,,epass
 

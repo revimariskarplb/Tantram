@@ -474,13 +474,7 @@ RDebugUtils.currentLine=3014702;
 if (true) return "";
  };
 RDebugUtils.currentLine=3014705;
- //BA.debugLineNum = 3014705;BA.debugLine="Activity.Finish";
-mostCurrent._activity.Finish();
-RDebugUtils.currentLine=3014706;
- //BA.debugLineNum = 3014706;BA.debugLine="StartActivity(ModulAlat01)";
-anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._modulalat01.getObject()));
-RDebugUtils.currentLine=3014708;
- //BA.debugLineNum = 3014708;BA.debugLine="End Sub";
+ //BA.debugLineNum = 3014705;BA.debugLine="End Sub";
 return "";
 }
 public static String  _enkripsi() throws Exception{
