@@ -8,7 +8,7 @@ public class modulkoneksi_subs_0 {
 
 public static RemoteObject  _koneksi(RemoteObject _ba) throws Exception{
 try {
-		Debug.PushSubsStack("koneksi (modulkoneksi) ","modulkoneksi",7,_ba,modulkoneksi.mostCurrent,10);
+		Debug.PushSubsStack("koneksi (modulkoneksi) ","modulkoneksi",4,_ba,modulkoneksi.mostCurrent,10);
 if (RapidSub.canDelegate("koneksi")) { return b4a.example.modulkoneksi.remoteMe.runUserSub(false, "modulkoneksi","koneksi", _ba);}
 ;
  BA.debugLineNum = 10;BA.debugLine="Sub koneksi";
@@ -40,6 +40,8 @@ public static RemoteObject  _process_globals() throws Exception{
  //BA.debugLineNum = 3;BA.debugLine="Sub Process_Globals";
  //BA.debugLineNum = 6;BA.debugLine="Dim MHandler As MysqlHandler";
 modulkoneksi._mhandler = RemoteObject.createNew ("mysql.mysqlhandler");
+ //BA.debugLineNum = 7;BA.debugLine="Dim ResultS As ResultSet";
+modulkoneksi._results = RemoteObject.createNew ("mysql.mysqlhandler.ResultSetWrapper");
  //BA.debugLineNum = 8;BA.debugLine="End Sub";
 return RemoteObject.createImmutable("");
 }

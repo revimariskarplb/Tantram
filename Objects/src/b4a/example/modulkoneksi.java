@@ -13,35 +13,38 @@ public static Object getObject() {
  
 public anywheresoftware.b4a.keywords.Common __c = null;
 public static mysql.mysqlhandler _mhandler = null;
+public static mysql.mysqlhandler.ResultSetWrapper _results = null;
 public b4a.example.main _main = null;
-public b4a.example.starter _starter = null;
 public b4a.example.modulhomepage _modulhomepage = null;
-public b4a.example.modulloginalat _modulloginalat = null;
-public b4a.example.modulgambar _modulgambar = null;
-public b4a.example.modulalat01 _modulalat01 = null;
 public b4a.example.modulloginadmin _modulloginadmin = null;
 public b4a.example.moduldashboard _moduldashboard = null;
+public b4a.example.modulalat01 _modulalat01 = null;
+public b4a.example.modulloginalat _modulloginalat = null;
+public b4a.example.modullaporanbulananalat _modullaporanbulananalat = null;
+public b4a.example.modulgambar _modulgambar = null;
+public b4a.example.modullaporanbulanan _modullaporanbulanan = null;
+public b4a.example.starter _starter = null;
 public static String  _koneksi(anywheresoftware.b4a.BA _ba) throws Exception{
 RDebugUtils.currentModule="modulkoneksi";
 if (Debug.shouldDelegate(null, "koneksi", false))
 	 {return ((String) Debug.delegate(null, "koneksi", new Object[] {_ba}));}
-RDebugUtils.currentLine=2818048;
- //BA.debugLineNum = 2818048;BA.debugLine="Sub koneksi";
-RDebugUtils.currentLine=2818050;
- //BA.debugLineNum = 2818050;BA.debugLine="MHandler.Initialize(\"meniti.id\", \"u7753801_db_tan";
+RDebugUtils.currentLine=1638400;
+ //BA.debugLineNum = 1638400;BA.debugLine="Sub koneksi";
+RDebugUtils.currentLine=1638402;
+ //BA.debugLineNum = 1638402;BA.debugLine="MHandler.Initialize(\"meniti.id\", \"u7753801_db_tan";
 _mhandler.Initialize("meniti.id","u7753801_db_tantram","u7753801_asepmustopa","4sepmust0p4");
-RDebugUtils.currentLine=2818053;
- //BA.debugLineNum = 2818053;BA.debugLine="If MHandler.isConnected = False Then";
+RDebugUtils.currentLine=1638405;
+ //BA.debugLineNum = 1638405;BA.debugLine="If MHandler.isConnected = False Then";
 if (_mhandler.isConnected==anywheresoftware.b4a.keywords.Common.False) { 
-RDebugUtils.currentLine=2818054;
- //BA.debugLineNum = 2818054;BA.debugLine="MsgboxAsync(\"Koneksi Terputus\",\"Info\")";
+RDebugUtils.currentLine=1638406;
+ //BA.debugLineNum = 1638406;BA.debugLine="MsgboxAsync(\"Koneksi Terputus\",\"Info\")";
 anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("Koneksi Terputus"),BA.ObjectToCharSequence("Info"),(_ba.processBA == null ? _ba : _ba.processBA));
-RDebugUtils.currentLine=2818055;
- //BA.debugLineNum = 2818055;BA.debugLine="ExitApplication";
+RDebugUtils.currentLine=1638407;
+ //BA.debugLineNum = 1638407;BA.debugLine="ExitApplication";
 anywheresoftware.b4a.keywords.Common.ExitApplication();
  };
-RDebugUtils.currentLine=2818057;
- //BA.debugLineNum = 2818057;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1638409;
+ //BA.debugLineNum = 1638409;BA.debugLine="End Sub";
 return "";
 }
 }

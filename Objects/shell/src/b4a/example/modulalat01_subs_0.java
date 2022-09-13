@@ -13,20 +13,23 @@ if (RapidSub.canDelegate("activity_create")) { return b4a.example.modulalat01.re
 Debug.locals.put("FirstTime", _firsttime);
  BA.debugLineNum = 19;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
 Debug.ShouldStop(262144);
- BA.debugLineNum = 21;BA.debugLine="Activity.LoadLayout(\"Scrollview\")";
+ BA.debugLineNum = 21;BA.debugLine="Activity.LoadLayout(\"Alat01\")";
 Debug.ShouldStop(1048576);
+modulalat01.mostCurrent._activity.runMethodAndSync(false,"LoadLayout",(Object)(RemoteObject.createImmutable("Alat01")),modulalat01.mostCurrent.activityBA);
+ BA.debugLineNum = 22;BA.debugLine="Activity.LoadLayout(\"Scrollview\")";
+Debug.ShouldStop(2097152);
 modulalat01.mostCurrent._activity.runMethodAndSync(false,"LoadLayout",(Object)(RemoteObject.createImmutable("Scrollview")),modulalat01.mostCurrent.activityBA);
- BA.debugLineNum = 23;BA.debugLine="ScrollView1.Panel.LoadLayout(\"Alat01\")";
-Debug.ShouldStop(4194304);
-modulalat01.mostCurrent._scrollview1.runMethod(false,"getPanel").runMethodAndSync(false,"LoadLayout",(Object)(RemoteObject.createImmutable("Alat01")),modulalat01.mostCurrent.activityBA);
- BA.debugLineNum = 24;BA.debugLine="ScrollView1.Panel.Width=320dip";
+ BA.debugLineNum = 24;BA.debugLine="ScrollView1.Panel.LoadLayout(\"Alat01\")";
 Debug.ShouldStop(8388608);
-modulalat01.mostCurrent._scrollview1.runMethod(false,"getPanel").runMethod(true,"setWidth",modulalat01.mostCurrent.__c.runMethod(true,"DipToCurrent",(Object)(BA.numberCast(int.class, 320))));
- BA.debugLineNum = 25;BA.debugLine="ScrollView1.Panel.Height=1790dip";
+modulalat01.mostCurrent._scrollview1.runMethod(false,"getPanel").runMethodAndSync(false,"LoadLayout",(Object)(RemoteObject.createImmutable("Alat01")),modulalat01.mostCurrent.activityBA);
+ BA.debugLineNum = 25;BA.debugLine="ScrollView1.Panel.Width=320dip";
 Debug.ShouldStop(16777216);
+modulalat01.mostCurrent._scrollview1.runMethod(false,"getPanel").runMethod(true,"setWidth",modulalat01.mostCurrent.__c.runMethod(true,"DipToCurrent",(Object)(BA.numberCast(int.class, 320))));
+ BA.debugLineNum = 26;BA.debugLine="ScrollView1.Panel.Height=1790dip";
+Debug.ShouldStop(33554432);
 modulalat01.mostCurrent._scrollview1.runMethod(false,"getPanel").runMethod(true,"setHeight",modulalat01.mostCurrent.__c.runMethod(true,"DipToCurrent",(Object)(BA.numberCast(int.class, 1790))));
- BA.debugLineNum = 27;BA.debugLine="End Sub";
-Debug.ShouldStop(67108864);
+ BA.debugLineNum = 28;BA.debugLine="End Sub";
+Debug.ShouldStop(134217728);
 return RemoteObject.createImmutable("");
 }
 catch (Exception e) {
@@ -37,13 +40,13 @@ finally {
 		}}
 public static RemoteObject  _activity_pause(RemoteObject _userclosed) throws Exception{
 try {
-		Debug.PushSubsStack("Activity_Pause (modulalat01) ","modulalat01",5,modulalat01.mostCurrent.activityBA,modulalat01.mostCurrent,33);
+		Debug.PushSubsStack("Activity_Pause (modulalat01) ","modulalat01",5,modulalat01.mostCurrent.activityBA,modulalat01.mostCurrent,34);
 if (RapidSub.canDelegate("activity_pause")) { return b4a.example.modulalat01.remoteMe.runUserSub(false, "modulalat01","activity_pause", _userclosed);}
 Debug.locals.put("UserClosed", _userclosed);
- BA.debugLineNum = 33;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
-Debug.ShouldStop(1);
- BA.debugLineNum = 35;BA.debugLine="End Sub";
-Debug.ShouldStop(4);
+ BA.debugLineNum = 34;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
+Debug.ShouldStop(2);
+ BA.debugLineNum = 36;BA.debugLine="End Sub";
+Debug.ShouldStop(8);
 return RemoteObject.createImmutable("");
 }
 catch (Exception e) {
@@ -54,12 +57,12 @@ finally {
 		}}
 public static RemoteObject  _activity_resume() throws Exception{
 try {
-		Debug.PushSubsStack("Activity_Resume (modulalat01) ","modulalat01",5,modulalat01.mostCurrent.activityBA,modulalat01.mostCurrent,29);
+		Debug.PushSubsStack("Activity_Resume (modulalat01) ","modulalat01",5,modulalat01.mostCurrent.activityBA,modulalat01.mostCurrent,30);
 if (RapidSub.canDelegate("activity_resume")) { return b4a.example.modulalat01.remoteMe.runUserSub(false, "modulalat01","activity_resume");}
- BA.debugLineNum = 29;BA.debugLine="Sub Activity_Resume";
-Debug.ShouldStop(268435456);
- BA.debugLineNum = 31;BA.debugLine="End Sub";
-Debug.ShouldStop(1073741824);
+ BA.debugLineNum = 30;BA.debugLine="Sub Activity_Resume";
+Debug.ShouldStop(536870912);
+ BA.debugLineNum = 32;BA.debugLine="End Sub";
+Debug.ShouldStop(-2147483648);
 return RemoteObject.createImmutable("");
 }
 catch (Exception e) {

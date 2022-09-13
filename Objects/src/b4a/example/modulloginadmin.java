@@ -348,58 +348,60 @@ public anywheresoftware.b4a.keywords.Common __c = null;
 public anywheresoftware.b4a.objects.EditTextWrapper _edtusername = null;
 public anywheresoftware.b4a.objects.EditTextWrapper _edtpassword = null;
 public b4a.example.main _main = null;
-public b4a.example.starter _starter = null;
 public b4a.example.modulhomepage _modulhomepage = null;
-public b4a.example.modulloginalat _modulloginalat = null;
-public b4a.example.modulgambar _modulgambar = null;
-public b4a.example.modulalat01 _modulalat01 = null;
-public b4a.example.modulkoneksi _modulkoneksi = null;
 public b4a.example.moduldashboard _moduldashboard = null;
+public b4a.example.modulkoneksi _modulkoneksi = null;
+public b4a.example.modulalat01 _modulalat01 = null;
+public b4a.example.modulloginalat _modulloginalat = null;
+public b4a.example.modullaporanbulananalat _modullaporanbulananalat = null;
+public b4a.example.modulgambar _modulgambar = null;
+public b4a.example.modullaporanbulanan _modullaporanbulanan = null;
+public b4a.example.starter _starter = null;
 public static String  _activity_create(boolean _firsttime) throws Exception{
 RDebugUtils.currentModule="modulloginadmin";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_create", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_create", new Object[] {_firsttime}));}
-RDebugUtils.currentLine=2490368;
- //BA.debugLineNum = 2490368;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
-RDebugUtils.currentLine=2490370;
- //BA.debugLineNum = 2490370;BA.debugLine="Activity.LoadLayout(\"LoginAdmin\")";
+RDebugUtils.currentLine=917504;
+ //BA.debugLineNum = 917504;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
+RDebugUtils.currentLine=917506;
+ //BA.debugLineNum = 917506;BA.debugLine="Activity.LoadLayout(\"LoginAdmin\")";
 mostCurrent._activity.LoadLayout("LoginAdmin",mostCurrent.activityBA);
-RDebugUtils.currentLine=2490372;
- //BA.debugLineNum = 2490372;BA.debugLine="End Sub";
+RDebugUtils.currentLine=917508;
+ //BA.debugLineNum = 917508;BA.debugLine="End Sub";
 return "";
 }
 public static String  _activity_pause(boolean _userclosed) throws Exception{
 RDebugUtils.currentModule="modulloginadmin";
-RDebugUtils.currentLine=2621440;
- //BA.debugLineNum = 2621440;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
-RDebugUtils.currentLine=2621442;
- //BA.debugLineNum = 2621442;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1048576;
+ //BA.debugLineNum = 1048576;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
+RDebugUtils.currentLine=1048578;
+ //BA.debugLineNum = 1048578;BA.debugLine="End Sub";
 return "";
 }
 public static String  _activity_resume() throws Exception{
 RDebugUtils.currentModule="modulloginadmin";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_resume", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_resume", null));}
-RDebugUtils.currentLine=2555904;
- //BA.debugLineNum = 2555904;BA.debugLine="Sub Activity_Resume";
-RDebugUtils.currentLine=2555906;
- //BA.debugLineNum = 2555906;BA.debugLine="End Sub";
+RDebugUtils.currentLine=983040;
+ //BA.debugLineNum = 983040;BA.debugLine="Sub Activity_Resume";
+RDebugUtils.currentLine=983042;
+ //BA.debugLineNum = 983042;BA.debugLine="End Sub";
 return "";
 }
 public static String  _btnlogin_click() throws Exception{
 RDebugUtils.currentModule="modulloginadmin";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "btnlogin_click", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "btnlogin_click", null));}
-RDebugUtils.currentLine=2686976;
- //BA.debugLineNum = 2686976;BA.debugLine="Private Sub BtnLogin_Click";
-RDebugUtils.currentLine=2686977;
- //BA.debugLineNum = 2686977;BA.debugLine="Activity.Finish";
+RDebugUtils.currentLine=1114112;
+ //BA.debugLineNum = 1114112;BA.debugLine="Private Sub BtnLogin_Click";
+RDebugUtils.currentLine=1114113;
+ //BA.debugLineNum = 1114113;BA.debugLine="Activity.Finish";
 mostCurrent._activity.Finish();
-RDebugUtils.currentLine=2686978;
- //BA.debugLineNum = 2686978;BA.debugLine="StartActivity(ModulDashboard)";
+RDebugUtils.currentLine=1114114;
+ //BA.debugLineNum = 1114114;BA.debugLine="StartActivity(ModulDashboard)";
 anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._moduldashboard.getObject()));
-RDebugUtils.currentLine=2686979;
- //BA.debugLineNum = 2686979;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1114115;
+ //BA.debugLineNum = 1114115;BA.debugLine="End Sub";
 return "";
 }
 }

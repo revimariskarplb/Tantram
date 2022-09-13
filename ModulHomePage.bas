@@ -12,7 +12,7 @@ Version=11.8
 Sub Process_Globals
 	'These global variables will be declared once when the application starts.
 	'These variables can be accessed from all modules.
-
+	
 End Sub
 
 Sub Globals
@@ -36,6 +36,11 @@ Sub Activity_Pause (UserClosed As Boolean)
 End Sub
 
 Private Sub BtnAdmin_Click
-'	Activity.Finish
+	Activity.Finish
 	StartActivity(ModulLoginAdmin)
+End Sub
+
+Private Sub btnAlat_Click
+	Activity.Finish
+	StartActivity(ModulLoginAlat)
 End Sub

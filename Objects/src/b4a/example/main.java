@@ -352,11 +352,13 @@ public static boolean isAnyActivityVisible() {
     boolean vis = false;
 vis = vis | (main.mostCurrent != null);
 vis = vis | (modulhomepage.mostCurrent != null);
-vis = vis | (modulloginalat.mostCurrent != null);
-vis = vis | (modulgambar.mostCurrent != null);
-vis = vis | (modulalat01.mostCurrent != null);
 vis = vis | (modulloginadmin.mostCurrent != null);
 vis = vis | (moduldashboard.mostCurrent != null);
+vis = vis | (modulalat01.mostCurrent != null);
+vis = vis | (modulloginalat.mostCurrent != null);
+vis = vis | (modullaporanbulananalat.mostCurrent != null);
+vis = vis | (modulgambar.mostCurrent != null);
+vis = vis | (modullaporanbulanan.mostCurrent != null);
 return vis;}
 
 private static BA killProgramHelper(BA ba) {
@@ -380,7 +382,6 @@ public static void killProgram() {
             if (__a != null)
 				__a.finish();}
 
-BA.applicationContext.stopService(new android.content.Intent(BA.applicationContext, starter.class));
  {
             Activity __a = null;
             if (modulhomepage.previousOne != null) {
@@ -388,42 +389,6 @@ BA.applicationContext.stopService(new android.content.Intent(BA.applicationConte
 			}
             else {
                 BA ba = killProgramHelper(modulhomepage.mostCurrent == null ? null : modulhomepage.mostCurrent.processBA);
-                if (ba != null) __a = ba.activity;
-            }
-            if (__a != null)
-				__a.finish();}
-
- {
-            Activity __a = null;
-            if (modulloginalat.previousOne != null) {
-				__a = modulloginalat.previousOne.get();
-			}
-            else {
-                BA ba = killProgramHelper(modulloginalat.mostCurrent == null ? null : modulloginalat.mostCurrent.processBA);
-                if (ba != null) __a = ba.activity;
-            }
-            if (__a != null)
-				__a.finish();}
-
- {
-            Activity __a = null;
-            if (modulgambar.previousOne != null) {
-				__a = modulgambar.previousOne.get();
-			}
-            else {
-                BA ba = killProgramHelper(modulgambar.mostCurrent == null ? null : modulgambar.mostCurrent.processBA);
-                if (ba != null) __a = ba.activity;
-            }
-            if (__a != null)
-				__a.finish();}
-
- {
-            Activity __a = null;
-            if (modulalat01.previousOne != null) {
-				__a = modulalat01.previousOne.get();
-			}
-            else {
-                BA ba = killProgramHelper(modulalat01.mostCurrent == null ? null : modulalat01.mostCurrent.processBA);
                 if (ba != null) __a = ba.activity;
             }
             if (__a != null)
@@ -453,19 +418,82 @@ BA.applicationContext.stopService(new android.content.Intent(BA.applicationConte
             if (__a != null)
 				__a.finish();}
 
+ {
+            Activity __a = null;
+            if (modulalat01.previousOne != null) {
+				__a = modulalat01.previousOne.get();
+			}
+            else {
+                BA ba = killProgramHelper(modulalat01.mostCurrent == null ? null : modulalat01.mostCurrent.processBA);
+                if (ba != null) __a = ba.activity;
+            }
+            if (__a != null)
+				__a.finish();}
+
+ {
+            Activity __a = null;
+            if (modulloginalat.previousOne != null) {
+				__a = modulloginalat.previousOne.get();
+			}
+            else {
+                BA ba = killProgramHelper(modulloginalat.mostCurrent == null ? null : modulloginalat.mostCurrent.processBA);
+                if (ba != null) __a = ba.activity;
+            }
+            if (__a != null)
+				__a.finish();}
+
+ {
+            Activity __a = null;
+            if (modullaporanbulananalat.previousOne != null) {
+				__a = modullaporanbulananalat.previousOne.get();
+			}
+            else {
+                BA ba = killProgramHelper(modullaporanbulananalat.mostCurrent == null ? null : modullaporanbulananalat.mostCurrent.processBA);
+                if (ba != null) __a = ba.activity;
+            }
+            if (__a != null)
+				__a.finish();}
+
+ {
+            Activity __a = null;
+            if (modulgambar.previousOne != null) {
+				__a = modulgambar.previousOne.get();
+			}
+            else {
+                BA ba = killProgramHelper(modulgambar.mostCurrent == null ? null : modulgambar.mostCurrent.processBA);
+                if (ba != null) __a = ba.activity;
+            }
+            if (__a != null)
+				__a.finish();}
+
+ {
+            Activity __a = null;
+            if (modullaporanbulanan.previousOne != null) {
+				__a = modullaporanbulanan.previousOne.get();
+			}
+            else {
+                BA ba = killProgramHelper(modullaporanbulanan.mostCurrent == null ? null : modullaporanbulanan.mostCurrent.processBA);
+                if (ba != null) __a = ba.activity;
+            }
+            if (__a != null)
+				__a.finish();}
+
+BA.applicationContext.stopService(new android.content.Intent(BA.applicationContext, starter.class));
 }
 public anywheresoftware.b4a.keywords.Common __c = null;
 public static anywheresoftware.b4a.objects.B4XViewWrapper.XUI _xui = null;
 public anywheresoftware.b4a.objects.ButtonWrapper _btnalat = null;
 public anywheresoftware.b4a.objects.ButtonWrapper _btnadmin = null;
-public b4a.example.starter _starter = null;
 public b4a.example.modulhomepage _modulhomepage = null;
-public b4a.example.modulloginalat _modulloginalat = null;
-public b4a.example.modulgambar _modulgambar = null;
-public b4a.example.modulalat01 _modulalat01 = null;
 public b4a.example.modulloginadmin _modulloginadmin = null;
-public b4a.example.modulkoneksi _modulkoneksi = null;
 public b4a.example.moduldashboard _moduldashboard = null;
+public b4a.example.modulkoneksi _modulkoneksi = null;
+public b4a.example.modulalat01 _modulalat01 = null;
+public b4a.example.modulloginalat _modulloginalat = null;
+public b4a.example.modullaporanbulananalat _modullaporanbulananalat = null;
+public b4a.example.modulgambar _modulgambar = null;
+public b4a.example.modullaporanbulanan _modullaporanbulanan = null;
+public b4a.example.starter _starter = null;
 public static String  _activity_create(boolean _firsttime) throws Exception{
 RDebugUtils.currentModule="main";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_create", false))
@@ -475,8 +503,8 @@ RDebugUtils.currentLine=131072;
 RDebugUtils.currentLine=131073;
  //BA.debugLineNum = 131073;BA.debugLine="Activity.LoadLayout(\"HomePage\")";
 mostCurrent._activity.LoadLayout("HomePage",mostCurrent.activityBA);
-RDebugUtils.currentLine=131074;
- //BA.debugLineNum = 131074;BA.debugLine="End Sub";
+RDebugUtils.currentLine=131075;
+ //BA.debugLineNum = 131075;BA.debugLine="End Sub";
 return "";
 }
 public static String  _activity_pause(boolean _userclosed) throws Exception{
@@ -497,52 +525,20 @@ RDebugUtils.currentLine=196610;
  //BA.debugLineNum = 196610;BA.debugLine="End Sub";
 return "";
 }
-public static String  _btnadmin_click() throws Exception{
-RDebugUtils.currentModule="main";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "btnadmin_click", false))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "btnadmin_click", null));}
-RDebugUtils.currentLine=393216;
- //BA.debugLineNum = 393216;BA.debugLine="Private Sub btnAdmin_Click";
-RDebugUtils.currentLine=393217;
- //BA.debugLineNum = 393217;BA.debugLine="Activity.Finish";
-mostCurrent._activity.Finish();
-RDebugUtils.currentLine=393218;
- //BA.debugLineNum = 393218;BA.debugLine="StartActivity(ModulLoginAdmin)";
-anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._modulloginadmin.getObject()));
-RDebugUtils.currentLine=393219;
- //BA.debugLineNum = 393219;BA.debugLine="End Sub";
-return "";
-}
 public static String  _btnalat_click() throws Exception{
 RDebugUtils.currentModule="main";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "btnalat_click", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "btnalat_click", null));}
-RDebugUtils.currentLine=327680;
- //BA.debugLineNum = 327680;BA.debugLine="Private Sub btnAlat_Click";
-RDebugUtils.currentLine=327681;
- //BA.debugLineNum = 327681;BA.debugLine="Activity.Finish";
+RDebugUtils.currentLine=1507328;
+ //BA.debugLineNum = 1507328;BA.debugLine="Private Sub btnAlat_Click";
+RDebugUtils.currentLine=1507329;
+ //BA.debugLineNum = 1507329;BA.debugLine="Activity.Finish";
 mostCurrent._activity.Finish();
-RDebugUtils.currentLine=327682;
- //BA.debugLineNum = 327682;BA.debugLine="StartActivity(ModulLoginAlat)";
+RDebugUtils.currentLine=1507330;
+ //BA.debugLineNum = 1507330;BA.debugLine="StartActivity(ModulLoginAlat)";
 anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._modulloginalat.getObject()));
-RDebugUtils.currentLine=327683;
- //BA.debugLineNum = 327683;BA.debugLine="End Sub";
-return "";
-}
-public static String  _btngambar_click() throws Exception{
-RDebugUtils.currentModule="main";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "btngambar_click", false))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "btngambar_click", null));}
-RDebugUtils.currentLine=458752;
- //BA.debugLineNum = 458752;BA.debugLine="Private Sub btnGambar_Click";
-RDebugUtils.currentLine=458753;
- //BA.debugLineNum = 458753;BA.debugLine="Activity.Finish";
-mostCurrent._activity.Finish();
-RDebugUtils.currentLine=458754;
- //BA.debugLineNum = 458754;BA.debugLine="StartActivity(ModulGambar)";
-anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._modulgambar.getObject()));
-RDebugUtils.currentLine=458755;
- //BA.debugLineNum = 458755;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1507331;
+ //BA.debugLineNum = 1507331;BA.debugLine="End Sub";
 return "";
 }
 }

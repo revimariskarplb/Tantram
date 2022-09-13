@@ -10,7 +10,7 @@ Sub Process_Globals
 	'These global variables will be declared once when the application starts.
 	'These variables can be accessed from all modules.
 	Dim MHandler As MysqlHandler
-	'Dim ResultS As ResultSet
+	Dim ResultS As ResultSet
 End Sub
 
 Sub koneksi

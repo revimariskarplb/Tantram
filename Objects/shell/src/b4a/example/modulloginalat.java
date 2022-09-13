@@ -55,17 +55,25 @@ public boolean isSingleton() {
 		return pcBA;
 	}
 public static RemoteObject __c = RemoteObject.declareNull("anywheresoftware.b4a.keywords.Common");
+public static RemoteObject _md = RemoteObject.declareNull("anywheresoftware.b4a.agraham.encryption.CipherWrapper.MessageDigestWrapper");
+public static RemoteObject _bytecon = RemoteObject.declareNull("anywheresoftware.b4a.agraham.byteconverter.ByteConverter");
+public static RemoteObject _passwordhash = null;
+public static RemoteObject _epass = RemoteObject.createImmutable("");
+public static RemoteObject _p = RemoteObject.createImmutable("");
+public static RemoteObject _btnmasuk = RemoteObject.declareNull("anywheresoftware.b4a.objects.ButtonWrapper");
 public static RemoteObject _edtkodealat = RemoteObject.declareNull("anywheresoftware.b4a.objects.EditTextWrapper");
 public static RemoteObject _edtpassword = RemoteObject.declareNull("anywheresoftware.b4a.objects.EditTextWrapper");
 public static b4a.example.main _main = null;
-public static b4a.example.starter _starter = null;
 public static b4a.example.modulhomepage _modulhomepage = null;
-public static b4a.example.modulgambar _modulgambar = null;
-public static b4a.example.modulalat01 _modulalat01 = null;
 public static b4a.example.modulloginadmin _modulloginadmin = null;
-public static b4a.example.modulkoneksi _modulkoneksi = null;
 public static b4a.example.moduldashboard _moduldashboard = null;
+public static b4a.example.modulkoneksi _modulkoneksi = null;
+public static b4a.example.modulalat01 _modulalat01 = null;
+public static b4a.example.modullaporanbulananalat _modullaporanbulananalat = null;
+public static b4a.example.modulgambar _modulgambar = null;
+public static b4a.example.modullaporanbulanan _modullaporanbulanan = null;
+public static b4a.example.starter _starter = null;
   public Object[] GetGlobals() {
-		return new Object[] {"Activity",modulloginalat.mostCurrent._activity,"edtKodeAlat",modulloginalat.mostCurrent._edtkodealat,"edtPassword",modulloginalat.mostCurrent._edtpassword,"Main",Debug.moduleToString(b4a.example.main.class),"ModulAlat01",Debug.moduleToString(b4a.example.modulalat01.class),"ModulDashboard",Debug.moduleToString(b4a.example.moduldashboard.class),"ModulGambar",Debug.moduleToString(b4a.example.modulgambar.class),"ModulHomePage",Debug.moduleToString(b4a.example.modulhomepage.class),"ModulKoneksi",Debug.moduleToString(b4a.example.modulkoneksi.class),"ModulLoginAdmin",Debug.moduleToString(b4a.example.modulloginadmin.class),"Starter",Debug.moduleToString(b4a.example.starter.class)};
+		return new Object[] {"Activity",modulloginalat.mostCurrent._activity,"btnMasuk",modulloginalat.mostCurrent._btnmasuk,"ByteCon",modulloginalat.mostCurrent._bytecon,"edtKodeAlat",modulloginalat.mostCurrent._edtkodealat,"edtPassword",modulloginalat.mostCurrent._edtpassword,"epass",modulloginalat.mostCurrent._epass,"Main",Debug.moduleToString(b4a.example.main.class),"md",modulloginalat.mostCurrent._md,"ModulAlat01",Debug.moduleToString(b4a.example.modulalat01.class),"ModulDashboard",Debug.moduleToString(b4a.example.moduldashboard.class),"ModulGambar",Debug.moduleToString(b4a.example.modulgambar.class),"ModulHomePage",Debug.moduleToString(b4a.example.modulhomepage.class),"ModulKoneksi",Debug.moduleToString(b4a.example.modulkoneksi.class),"ModulLaporanBulanan",Debug.moduleToString(b4a.example.modullaporanbulanan.class),"ModulLaporanBulananAlat",Debug.moduleToString(b4a.example.modullaporanbulananalat.class),"ModulLoginAdmin",Debug.moduleToString(b4a.example.modulloginadmin.class),"p",modulloginalat.mostCurrent._p,"passwordhash",modulloginalat._passwordhash,"Starter",Debug.moduleToString(b4a.example.starter.class)};
 }
 }

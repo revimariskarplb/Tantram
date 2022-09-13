@@ -346,39 +346,41 @@ public static void initializeProcessGlobals() {
 }
 public anywheresoftware.b4a.keywords.Common __c = null;
 public b4a.example.main _main = null;
-public b4a.example.starter _starter = null;
 public b4a.example.modulhomepage _modulhomepage = null;
-public b4a.example.modulloginalat _modulloginalat = null;
-public b4a.example.modulalat01 _modulalat01 = null;
 public b4a.example.modulloginadmin _modulloginadmin = null;
-public b4a.example.modulkoneksi _modulkoneksi = null;
 public b4a.example.moduldashboard _moduldashboard = null;
+public b4a.example.modulkoneksi _modulkoneksi = null;
+public b4a.example.modulalat01 _modulalat01 = null;
+public b4a.example.modulloginalat _modulloginalat = null;
+public b4a.example.modullaporanbulananalat _modullaporanbulananalat = null;
+public b4a.example.modullaporanbulanan _modullaporanbulanan = null;
+public b4a.example.starter _starter = null;
 public static String  _activity_create(boolean _firsttime) throws Exception{
 RDebugUtils.currentModule="modulgambar";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_create", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_create", new Object[] {_firsttime}));}
-RDebugUtils.currentLine=1835008;
- //BA.debugLineNum = 1835008;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
-RDebugUtils.currentLine=1835012;
- //BA.debugLineNum = 1835012;BA.debugLine="End Sub";
+RDebugUtils.currentLine=3080192;
+ //BA.debugLineNum = 3080192;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
+RDebugUtils.currentLine=3080196;
+ //BA.debugLineNum = 3080196;BA.debugLine="End Sub";
 return "";
 }
 public static String  _activity_pause(boolean _userclosed) throws Exception{
 RDebugUtils.currentModule="modulgambar";
-RDebugUtils.currentLine=1966080;
- //BA.debugLineNum = 1966080;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
-RDebugUtils.currentLine=1966082;
- //BA.debugLineNum = 1966082;BA.debugLine="End Sub";
+RDebugUtils.currentLine=3211264;
+ //BA.debugLineNum = 3211264;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
+RDebugUtils.currentLine=3211266;
+ //BA.debugLineNum = 3211266;BA.debugLine="End Sub";
 return "";
 }
 public static String  _activity_resume() throws Exception{
 RDebugUtils.currentModule="modulgambar";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_resume", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_resume", null));}
-RDebugUtils.currentLine=1900544;
- //BA.debugLineNum = 1900544;BA.debugLine="Sub Activity_Resume";
-RDebugUtils.currentLine=1900546;
- //BA.debugLineNum = 1900546;BA.debugLine="End Sub";
+RDebugUtils.currentLine=3145728;
+ //BA.debugLineNum = 3145728;BA.debugLine="Sub Activity_Resume";
+RDebugUtils.currentLine=3145730;
+ //BA.debugLineNum = 3145730;BA.debugLine="End Sub";
 return "";
 }
 }
