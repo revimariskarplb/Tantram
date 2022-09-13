@@ -95,6 +95,7 @@ Private Sub btnMasuk_Click
 		edtKodeAlat.Text =""
 		Return
 	End If
+	
 End Sub
 
 Sub enkripsi

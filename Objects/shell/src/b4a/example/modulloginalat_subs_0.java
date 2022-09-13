@@ -137,8 +137,14 @@ modulloginalat.mostCurrent._edtkodealat.runMethodAndSync(true,"setText",BA.Objec
 Debug.ShouldStop(33554432);
 if (true) return RemoteObject.createImmutable("");
  };
- BA.debugLineNum = 92;BA.debugLine="End Sub";
-Debug.ShouldStop(134217728);
+ BA.debugLineNum = 93;BA.debugLine="Activity.Finish";
+Debug.ShouldStop(268435456);
+modulloginalat.mostCurrent._activity.runVoidMethod ("Finish");
+ BA.debugLineNum = 94;BA.debugLine="StartActivity(ModulAlat01)";
+Debug.ShouldStop(536870912);
+modulloginalat.mostCurrent.__c.runVoidMethod ("StartActivity",modulloginalat.processBA,(Object)((modulloginalat.mostCurrent._modulalat01.getObject())));
+ BA.debugLineNum = 96;BA.debugLine="End Sub";
+Debug.ShouldStop(-2147483648);
 return RemoteObject.createImmutable("");
 }
 catch (Exception e) {
@@ -149,18 +155,18 @@ finally {
 		}}
 public static RemoteObject  _enkripsi() throws Exception{
 try {
-		Debug.PushSubsStack("enkripsi (modulloginalat) ","modulloginalat",6,modulloginalat.mostCurrent.activityBA,modulloginalat.mostCurrent,94);
+		Debug.PushSubsStack("enkripsi (modulloginalat) ","modulloginalat",6,modulloginalat.mostCurrent.activityBA,modulloginalat.mostCurrent,98);
 if (RapidSub.canDelegate("enkripsi")) { return b4a.example.modulloginalat.remoteMe.runUserSub(false, "modulloginalat","enkripsi");}
- BA.debugLineNum = 94;BA.debugLine="Sub enkripsi";
-Debug.ShouldStop(536870912);
- BA.debugLineNum = 95;BA.debugLine="passwordhash = md.GetMessageDigest(p.GetBytes(\"UT";
-Debug.ShouldStop(1073741824);
+ BA.debugLineNum = 98;BA.debugLine="Sub enkripsi";
+Debug.ShouldStop(2);
+ BA.debugLineNum = 99;BA.debugLine="passwordhash = md.GetMessageDigest(p.GetBytes(\"UT";
+Debug.ShouldStop(4);
 modulloginalat._passwordhash = modulloginalat.mostCurrent._md.runMethod(false,"GetMessageDigest",(Object)(modulloginalat.mostCurrent._p.runMethod(false,"getBytes",(Object)(RemoteObject.createImmutable("UTF8")))),(Object)(RemoteObject.createImmutable("MD5")));
- BA.debugLineNum = 96;BA.debugLine="epass = ByteCon.HexFromBytes(passwordhash)";
-Debug.ShouldStop(-2147483648);
+ BA.debugLineNum = 100;BA.debugLine="epass = ByteCon.HexFromBytes(passwordhash)";
+Debug.ShouldStop(8);
 modulloginalat.mostCurrent._epass = modulloginalat.mostCurrent._bytecon.runMethod(true,"HexFromBytes",(Object)(modulloginalat._passwordhash));
- BA.debugLineNum = 97;BA.debugLine="End Sub";
-Debug.ShouldStop(1);
+ BA.debugLineNum = 101;BA.debugLine="End Sub";
+Debug.ShouldStop(16);
 return RemoteObject.createImmutable("");
 }
 catch (Exception e) {

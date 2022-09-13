@@ -54,10 +54,11 @@ public static b4a.example.moduldashboard _moduldashboard = null;
 public static b4a.example.modulalat01 _modulalat01 = null;
 public static b4a.example.modulloginalat _modulloginalat = null;
 public static b4a.example.modullaporanbulananalat _modullaporanbulananalat = null;
+public static b4a.example.laporandatasensor _laporandatasensor = null;
 public static b4a.example.modulgambar _modulgambar = null;
 public static b4a.example.modullaporanbulanan _modullaporanbulanan = null;
 public static b4a.example.starter _starter = null;
   public Object[] GetGlobals() {
-		return new Object[] {"Main",Debug.moduleToString(b4a.example.main.class),"MHandler",modulkoneksi._mhandler,"ModulAlat01",Debug.moduleToString(b4a.example.modulalat01.class),"ModulDashboard",Debug.moduleToString(b4a.example.moduldashboard.class),"ModulGambar",Debug.moduleToString(b4a.example.modulgambar.class),"ModulHomePage",Debug.moduleToString(b4a.example.modulhomepage.class),"ModulLaporanBulanan",Debug.moduleToString(b4a.example.modullaporanbulanan.class),"ModulLaporanBulananAlat",Debug.moduleToString(b4a.example.modullaporanbulananalat.class),"ModulLoginAdmin",Debug.moduleToString(b4a.example.modulloginadmin.class),"ModulLoginAlat",Debug.moduleToString(b4a.example.modulloginalat.class),"ResultS",modulkoneksi._results,"Starter",Debug.moduleToString(b4a.example.starter.class)};
+		return new Object[] {"LaporanDataSensor",Debug.moduleToString(b4a.example.laporandatasensor.class),"Main",Debug.moduleToString(b4a.example.main.class),"MHandler",modulkoneksi._mhandler,"ModulAlat01",Debug.moduleToString(b4a.example.modulalat01.class),"ModulDashboard",Debug.moduleToString(b4a.example.moduldashboard.class),"ModulGambar",Debug.moduleToString(b4a.example.modulgambar.class),"ModulHomePage",Debug.moduleToString(b4a.example.modulhomepage.class),"ModulLaporanBulanan",Debug.moduleToString(b4a.example.modullaporanbulanan.class),"ModulLaporanBulananAlat",Debug.moduleToString(b4a.example.modullaporanbulananalat.class),"ModulLoginAdmin",Debug.moduleToString(b4a.example.modulloginadmin.class),"ModulLoginAlat",Debug.moduleToString(b4a.example.modulloginalat.class),"ResultS",modulkoneksi._results,"Starter",Debug.moduleToString(b4a.example.starter.class)};
 }
 }

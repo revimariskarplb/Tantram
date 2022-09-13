@@ -353,6 +353,7 @@ public b4a.example.moduldashboard _moduldashboard = null;
 public b4a.example.modulkoneksi _modulkoneksi = null;
 public b4a.example.modulloginalat _modulloginalat = null;
 public b4a.example.modullaporanbulananalat _modullaporanbulananalat = null;
+public b4a.example.laporandatasensor _laporandatasensor = null;
 public b4a.example.modulgambar _modulgambar = null;
 public b4a.example.modullaporanbulanan _modullaporanbulanan = null;
 public b4a.example.starter _starter = null;
@@ -360,43 +361,43 @@ public static String  _activity_create(boolean _firsttime) throws Exception{
 RDebugUtils.currentModule="modulalat01";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_create", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_create", new Object[] {_firsttime}));}
-RDebugUtils.currentLine=1835008;
- //BA.debugLineNum = 1835008;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
-RDebugUtils.currentLine=1835010;
- //BA.debugLineNum = 1835010;BA.debugLine="Activity.LoadLayout(\"Alat01\")";
+RDebugUtils.currentLine=2359296;
+ //BA.debugLineNum = 2359296;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
+RDebugUtils.currentLine=2359298;
+ //BA.debugLineNum = 2359298;BA.debugLine="Activity.LoadLayout(\"Alat01\")";
 mostCurrent._activity.LoadLayout("Alat01",mostCurrent.activityBA);
-RDebugUtils.currentLine=1835011;
- //BA.debugLineNum = 1835011;BA.debugLine="Activity.LoadLayout(\"Scrollview\")";
+RDebugUtils.currentLine=2359299;
+ //BA.debugLineNum = 2359299;BA.debugLine="Activity.LoadLayout(\"Scrollview\")";
 mostCurrent._activity.LoadLayout("Scrollview",mostCurrent.activityBA);
-RDebugUtils.currentLine=1835013;
- //BA.debugLineNum = 1835013;BA.debugLine="ScrollView1.Panel.LoadLayout(\"Alat01\")";
+RDebugUtils.currentLine=2359301;
+ //BA.debugLineNum = 2359301;BA.debugLine="ScrollView1.Panel.LoadLayout(\"Alat01\")";
 mostCurrent._scrollview1.getPanel().LoadLayout("Alat01",mostCurrent.activityBA);
-RDebugUtils.currentLine=1835014;
- //BA.debugLineNum = 1835014;BA.debugLine="ScrollView1.Panel.Width=320dip";
+RDebugUtils.currentLine=2359302;
+ //BA.debugLineNum = 2359302;BA.debugLine="ScrollView1.Panel.Width=320dip";
 mostCurrent._scrollview1.getPanel().setWidth(anywheresoftware.b4a.keywords.Common.DipToCurrent((int) (320)));
-RDebugUtils.currentLine=1835015;
- //BA.debugLineNum = 1835015;BA.debugLine="ScrollView1.Panel.Height=1790dip";
+RDebugUtils.currentLine=2359303;
+ //BA.debugLineNum = 2359303;BA.debugLine="ScrollView1.Panel.Height=1790dip";
 mostCurrent._scrollview1.getPanel().setHeight(anywheresoftware.b4a.keywords.Common.DipToCurrent((int) (1790)));
-RDebugUtils.currentLine=1835017;
- //BA.debugLineNum = 1835017;BA.debugLine="End Sub";
+RDebugUtils.currentLine=2359305;
+ //BA.debugLineNum = 2359305;BA.debugLine="End Sub";
 return "";
 }
 public static String  _activity_pause(boolean _userclosed) throws Exception{
 RDebugUtils.currentModule="modulalat01";
-RDebugUtils.currentLine=1966080;
- //BA.debugLineNum = 1966080;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
-RDebugUtils.currentLine=1966082;
- //BA.debugLineNum = 1966082;BA.debugLine="End Sub";
+RDebugUtils.currentLine=2555904;
+ //BA.debugLineNum = 2555904;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
+RDebugUtils.currentLine=2555906;
+ //BA.debugLineNum = 2555906;BA.debugLine="End Sub";
 return "";
 }
 public static String  _activity_resume() throws Exception{
 RDebugUtils.currentModule="modulalat01";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_resume", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_resume", null));}
-RDebugUtils.currentLine=1900544;
- //BA.debugLineNum = 1900544;BA.debugLine="Sub Activity_Resume";
-RDebugUtils.currentLine=1900546;
- //BA.debugLineNum = 1900546;BA.debugLine="End Sub";
+RDebugUtils.currentLine=2424832;
+ //BA.debugLineNum = 2424832;BA.debugLine="Sub Activity_Resume";
+RDebugUtils.currentLine=2424834;
+ //BA.debugLineNum = 2424834;BA.debugLine="End Sub";
 return "";
 }
 }

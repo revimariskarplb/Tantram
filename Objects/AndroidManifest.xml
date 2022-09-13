@@ -81,6 +81,14 @@
 		<activity
 			android:windowSoftInputMode="stateHidden"
 			android:launchMode="singleTop"
+			android:name=".laporandatasensor"
+			android:label="Tantram"
+			android:screenOrientation="unspecified"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
 			android:name=".modulgambar"
 			android:label="Tantram"
 			android:screenOrientation="unspecified"

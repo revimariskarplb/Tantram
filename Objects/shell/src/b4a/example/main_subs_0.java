@@ -59,6 +59,28 @@ catch (Exception e) {
 finally {
 			Debug.PopSubsStack();
 		}}
+public static RemoteObject  _btnadmin_click() throws Exception{
+try {
+		Debug.PushSubsStack("BtnAdmin_Click (main) ","main",0,main.mostCurrent.activityBA,main.mostCurrent,49);
+if (RapidSub.canDelegate("btnadmin_click")) { return b4a.example.main.remoteMe.runUserSub(false, "main","btnadmin_click");}
+ BA.debugLineNum = 49;BA.debugLine="Private Sub BtnAdmin_Click";
+Debug.ShouldStop(65536);
+ BA.debugLineNum = 50;BA.debugLine="Activity.Finish";
+Debug.ShouldStop(131072);
+main.mostCurrent._activity.runVoidMethod ("Finish");
+ BA.debugLineNum = 51;BA.debugLine="StartActivity(ModulLoginAdmin)";
+Debug.ShouldStop(262144);
+main.mostCurrent.__c.runVoidMethod ("StartActivity",main.processBA,(Object)((main.mostCurrent._modulloginadmin.getObject())));
+ BA.debugLineNum = 52;BA.debugLine="End Sub";
+Debug.ShouldStop(524288);
+return RemoteObject.createImmutable("");
+}
+catch (Exception e) {
+			throw Debug.ErrorCaught(e);
+		} 
+finally {
+			Debug.PopSubsStack();
+		}}
 public static RemoteObject  _btnalat_click() throws Exception{
 try {
 		Debug.PushSubsStack("btnAlat_Click (main) ","main",0,main.mostCurrent.activityBA,main.mostCurrent,42);
@@ -104,6 +126,7 @@ modulkoneksi_subs_0._process_globals();
 modulalat01_subs_0._process_globals();
 modulloginalat_subs_0._process_globals();
 modullaporanbulananalat_subs_0._process_globals();
+laporandatasensor_subs_0._process_globals();
 modulgambar_subs_0._process_globals();
 modullaporanbulanan_subs_0._process_globals();
 starter_subs_0._process_globals();
@@ -115,6 +138,7 @@ modulkoneksi.myClass = BA.getDeviceClass ("b4a.example.modulkoneksi");
 modulalat01.myClass = BA.getDeviceClass ("b4a.example.modulalat01");
 modulloginalat.myClass = BA.getDeviceClass ("b4a.example.modulloginalat");
 modullaporanbulananalat.myClass = BA.getDeviceClass ("b4a.example.modullaporanbulananalat");
+laporandatasensor.myClass = BA.getDeviceClass ("b4a.example.laporandatasensor");
 modulgambar.myClass = BA.getDeviceClass ("b4a.example.modulgambar");
 modullaporanbulanan.myClass = BA.getDeviceClass ("b4a.example.modullaporanbulanan");
 starter.myClass = BA.getDeviceClass ("b4a.example.starter");

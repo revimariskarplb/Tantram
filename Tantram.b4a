@@ -39,8 +39,8 @@ FileGroup22=Images Group\Slidder
 FileGroup3=Layout Group\Admin
 FileGroup4=Layout Group\Admin
 FileGroup5=Layout Group
-FileGroup6=Default Group
-FileGroup7=Default Group
+FileGroup6=Layout Group\Alat
+FileGroup7=Layout Group\Alat
 FileGroup8=Layout Group\Admin
 FileGroup9=Layout Group\Alat
 Group=Default Group
@@ -50,19 +50,20 @@ Library3=mysql
 Library4=xui
 Library5=encryption
 ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="30"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~
-Module1=ModulAlat01
-Module10=Starter
-Module2=ModulDashboard
-Module3=ModulGambar
-Module4=ModulHomePage
-Module5=ModulKoneksi
-Module6=ModulLaporanBulanan
-Module7=ModulLaporanBulananAlat
-Module8=ModulLoginAdmin
-Module9=ModulLoginAlat
+Module1=LaporanDataSensor
+Module10=ModulLoginAlat
+Module11=Starter
+Module2=ModulAlat01
+Module3=ModulDashboard
+Module4=ModulGambar
+Module5=ModulHomePage
+Module6=ModulKoneksi
+Module7=ModulLaporanBulanan
+Module8=ModulLaporanBulananAlat
+Module9=ModulLoginAdmin
 NumberOfFiles=22
 NumberOfLibraries=5
-NumberOfModules=10
+NumberOfModules=11
 Version=11.8
 @EndOfDesignText@
 
@@ -111,3 +112,9 @@ Private Sub btnAlat_Click
 	StartActivity(ModulLoginAlat)
 End Sub
 
+
+
+Private Sub BtnAdmin_Click
+	Activity.Finish
+	StartActivity(ModulLoginAdmin)
+End Sub

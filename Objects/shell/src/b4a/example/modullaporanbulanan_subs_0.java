@@ -8,7 +8,7 @@ public class modullaporanbulanan_subs_0 {
 
 public static RemoteObject  _activity_create(RemoteObject _firsttime) throws Exception{
 try {
-		Debug.PushSubsStack("Activity_Create (modullaporanbulanan) ","modullaporanbulanan",9,modullaporanbulanan.mostCurrent.activityBA,modullaporanbulanan.mostCurrent,18);
+		Debug.PushSubsStack("Activity_Create (modullaporanbulanan) ","modullaporanbulanan",10,modullaporanbulanan.mostCurrent.activityBA,modullaporanbulanan.mostCurrent,18);
 if (RapidSub.canDelegate("activity_create")) { return b4a.example.modullaporanbulanan.remoteMe.runUserSub(false, "modullaporanbulanan","activity_create", _firsttime);}
 Debug.locals.put("FirstTime", _firsttime);
  BA.debugLineNum = 18;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
@@ -25,7 +25,7 @@ finally {
 		}}
 public static RemoteObject  _activity_pause(RemoteObject _userclosed) throws Exception{
 try {
-		Debug.PushSubsStack("Activity_Pause (modullaporanbulanan) ","modullaporanbulanan",9,modullaporanbulanan.mostCurrent.activityBA,modullaporanbulanan.mostCurrent,28);
+		Debug.PushSubsStack("Activity_Pause (modullaporanbulanan) ","modullaporanbulanan",10,modullaporanbulanan.mostCurrent.activityBA,modullaporanbulanan.mostCurrent,28);
 if (RapidSub.canDelegate("activity_pause")) { return b4a.example.modullaporanbulanan.remoteMe.runUserSub(false, "modullaporanbulanan","activity_pause", _userclosed);}
 Debug.locals.put("UserClosed", _userclosed);
  BA.debugLineNum = 28;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
@@ -42,7 +42,7 @@ finally {
 		}}
 public static RemoteObject  _activity_resume() throws Exception{
 try {
-		Debug.PushSubsStack("Activity_Resume (modullaporanbulanan) ","modullaporanbulanan",9,modullaporanbulanan.mostCurrent.activityBA,modullaporanbulanan.mostCurrent,24);
+		Debug.PushSubsStack("Activity_Resume (modullaporanbulanan) ","modullaporanbulanan",10,modullaporanbulanan.mostCurrent.activityBA,modullaporanbulanan.mostCurrent,24);
 if (RapidSub.canDelegate("activity_resume")) { return b4a.example.modullaporanbulanan.remoteMe.runUserSub(false, "modullaporanbulanan","activity_resume");}
  BA.debugLineNum = 24;BA.debugLine="Sub Activity_Resume";
 Debug.ShouldStop(8388608);

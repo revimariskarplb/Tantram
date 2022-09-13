@@ -14,6 +14,10 @@ main,activity_resume,0,0,34,36
 
 
 
+main,btnadmin_click,0,0,49,52
+
+
+
 main,btnalat_click,0,0,42,45
 
 
@@ -138,11 +142,11 @@ modulloginalat,activity_resume,0,0,35,37
 
 
 
-modulloginalat,btnmasuk_click,1,0,44,92
+modulloginalat,btnmasuk_click,1,1,44,96
 ,edtkodealat,,edtpassword,,p,modulkoneksi,results,modulkoneksi,mhandler,,epass,,passwordhash,,md,,bytecon
 ,p,modulkoneksi,results,,passwordhash,,epass
 modulkoneksi,koneksi,,enkripsi
-modulloginalat,enkripsi,0,0,94,97
+modulloginalat,enkripsi,0,0,98,101
 ,passwordhash,,md,,p,,epass,,bytecon
 ,passwordhash,,epass
 
@@ -179,6 +183,26 @@ modullaporanbulananalat,globals,0,1,12,16
 
 
 modullaporanbulananalat,process_globals,0,1,6,10
+
+
+
+laporandatasensor,activity_create,1,0,18,23
+
+
+
+laporandatasensor,activity_pause,0,0,29,31
+
+
+
+laporandatasensor,activity_resume,0,0,25,27
+
+
+
+laporandatasensor,globals,0,1,12,16
+
+
+
+laporandatasensor,process_globals,0,1,6,10
 
 
 
